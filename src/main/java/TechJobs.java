@@ -122,7 +122,7 @@ public class TechJobs {
         //System.out.println("printJobs is not implemented yet");
         int printedJobs = 0;
         for(HashMap<String, String> jobEntry : someJobs){
-            System.out.println("*****");
+            System.out.println("\n*****");
             for(String jobKey : jobEntry.keySet()){
                 String jobValue = jobEntry.get(jobKey);
                 System.out.println(jobKey + ": " + jobValue);
@@ -131,7 +131,7 @@ public class TechJobs {
             printedJobs++;
         }
         if(printedJobs == 0){
-            System.out.println("No Results");
+            System.out.print("No Results");
         }
     }
 }
