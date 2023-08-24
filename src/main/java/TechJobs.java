@@ -131,8 +131,7 @@ public class TechJobs {
             printedJobs++;
         }
         if(printedJobs == 0){
-            System.out.println("No jobs were found for your specified filters. " +
-                    "Please try again with different search parameters.\n");
+            System.out.println("No Results");
         }
     }
 }
