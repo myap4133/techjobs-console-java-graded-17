@@ -127,7 +127,7 @@ public class TechJobs {
                 String jobValue = jobEntry.get(jobKey);
                 System.out.println(jobKey + ": " + jobValue);
             }
-            System.out.println("*****\n");
+            System.out.println("*****");
             printedJobs++;
         }
         if(printedJobs == 0){
